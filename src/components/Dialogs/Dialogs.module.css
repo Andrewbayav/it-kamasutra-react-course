@@ -1,5 +1,25 @@
-
 .content {
     grid-area: c;
     background-color: cornflowerblue;
+}
+
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems{
+
+}
+
+.dialog .active {
+    color: gold;
+}
+
+.messages{
+
+}
+
+.messages .message{
+
 }
